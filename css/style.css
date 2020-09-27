@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 32px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.row {
+  justify-content: space-between;
+}
+@media (max-width: 719px) {
+  .row {
+    justify-content: center;
+  }
+}
+
+.column {
+  width: 360px;
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+h3 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #081F32;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6E798C;
+}
+
+.price {
+  margin: 33px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.price p {
+  padding-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #A5ADBB;
+}
+.price .price-now {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 25px;
+  color: #081F32;
+}
+.price .price-before {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration-line: line-through;
+  color: #F8593B;
+  padding-right: 30px;
+}
+
+input {
+  height: 44px;
+  width: 114px;
+  background: #2ECC71;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.18em;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.name {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 32px 24px 30px 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
